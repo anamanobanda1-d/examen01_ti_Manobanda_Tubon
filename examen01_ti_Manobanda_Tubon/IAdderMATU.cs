@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace examen01_ti_Manobanda_Tubon;
 
-namespace examen01_ti_Manobanda_Tubon
+public interface IAdderMATU
 {
-    internal interface IAdderMATU
-    {
-    }
+    string AddMATU(string numberA_MATU, string numberB_MATU);
 }
